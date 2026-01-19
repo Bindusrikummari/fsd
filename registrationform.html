@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B.Tech Joining Offers & Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 65%;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<h2>B.Tech Joining Offers & Courses Registration</h2>
+
+<form action="#" method="post">
+    <table border="1">
+        <tr>
+            <th>Student Name</th>
+            <td><input type="text" name="name"></td>
+        </tr>
+
+        <tr>
+            <th>Application Number</th>
+            <td><input type="number" name="appno"></td>
+        </tr>
+
+        <tr>
+            <th>Email ID</th>
+            <td><input type="text" name="email"></td>
+        </tr>
+
+        <tr>
+            <th>Mobile Number</th>
+            <td><input type="number" name="mobile"></td>
+        </tr>
+
+        <tr>
+            <th>Date of Joining</th>
+            <td><input type="date" name="doj"></td>
+        </tr>
+
+        <tr>
+            <th>Gender</th>
+            <td>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <th>B.Tech Course</th>
+            <td>
+                <select name="course">
+                    <option value="">Select Course</option>
+                    <option value="CSE">Computer Science Engineering</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                    <option value="AI & ML">Artificial Intelligence & ML</option>
+                    <option value="Data Science">Data Science</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Joining Offers</th>
+            <td>
+                <input type="checkbox" name="offer" value="Scholarship"> Scholarship
+                <input type="checkbox" name="offer" value="management"> Management
+                
+            </td>
+        </tr>
+
+        <tr>
+            <th>Address</th>
+            <td>
+                <textarea name="address" rows="4" cols="30"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Apply">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
