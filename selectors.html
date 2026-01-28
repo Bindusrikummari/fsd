@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        #idSelector {
+            color: red;
+        }
+
+        .classSelector {
+            color: green;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        * {
+            font-family: Arial;
+        }
+
+        div p {
+            color: purple;
+        }
+
+        div > span {
+            color: orange;
+        }
+
+        h3 + p {
+            color: brown;
+        }
+
+        h4 ~ p {
+            color: pink;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        p::first-letter {
+            font-size: 30px;
+        }
+
+        input[type="text"] {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+
+<h1>CSS Selector Examples</h1>
+
+<p>Element Selector</p>
+<p id="idSelector">ID Selector</p>
+<p class="classSelector">Class Selector</p>
+
+<div>
+    <p>Descendant Selector</p>
+    <span>Child Selector</span>
+</div>
+
+<h3>Heading</h3>
+<p>Adjacent Sibling</p>
+
+<h4>Heading</h4>
+<p>General Sibling</p>
+<p>Another Sibling</p>
+
+<a href="#">Hover Me</a><br><br>
+
+<input type="text" placeholder="Text Field">
+
+</body>
+</html>
